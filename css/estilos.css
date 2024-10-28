@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom right, #f0e68c, #f0c68c); /* Degradado de fondo */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto */
+}
+
+header {
+    background-color: #ffcc00; /* Color de fondo del encabezado */
+    padding: 20px;
+    border-bottom: 5px solid #ff9900; /* Borde inferior */
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el encabezado */
+}
+
+h2 {
+    color: #ff6600; /* Color del segundo encabezado */
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para el segundo encabezado */
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 15px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Transición suave */
+}
+
+img:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #ffcc00; /* Color de fondo del pie de página */
+    padding: 10px;
+    border-top: 5px solid #ff9900; /* Borde superior */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para el texto del pie de página */
+}
